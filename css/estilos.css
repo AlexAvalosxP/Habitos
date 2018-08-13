@@ -6,36 +6,41 @@
 
 body
 {
-	background-image: url("../sources/back.jpg");
+	/*background-image: url("../sources/back.jpg");
 	background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+	background-position: center center;*/
+	background: white;
 }
 
 .logo
 {
-	width: 250px;
-	height: 250px;
+	width: 100px;
+	height: 100px;
 	background-image: url("../sources/logo.jpg");
 	margin-left: 50px;
-	margin-top: 50px;
 	float: left;
 	background-size: cover;
 }
 
 .info
 {
-	height: 250px;
-	width: calc(100% - 350px);
+	height: 100px;
+	width: 100%;
 	float: left;
-	margin-top: 50px;
-	text-align: right;
+	position: fixed;
+	text-align: center;
+	background: #2B5E64;
+	color: white;
+	box-sizing: border-box;
 }
 
-.info>h1
+.titulo
 {
-	margin-top: 25px;
-	margin-right: 15px;
+	top: 25px;
+	color: black;
+	background: red;
+	position: relative;
 }
 
 .midL
@@ -182,4 +187,23 @@ body
 .imgH7
 {
 	background-image: url("../sources/h7.jpg");
+}
+
+
+
+
+div.scrollmenu {
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
 }
