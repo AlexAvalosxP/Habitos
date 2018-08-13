@@ -121,3 +121,65 @@ body
 	line-height: 445px;
 	font-size: 1.5em;
 }
+
+.der
+{
+	width: 50% !important;
+	text-align: justify !important;
+	float: left;
+}
+
+.izq
+{
+	width: 50% !important;
+	text-align: justify !important;
+	float: left
+}
+
+.imgH1, .imgH2, .imgH3, .imgH4, .imgH5, .imgH6, .imgH7
+{
+	width: 45% !important;
+	height: 55%;
+	background-size: cover;
+	margin-bottom: 	55px;
+	float: left!important;
+	margin-left: 25px;
+}
+
+.imgH1
+{
+	background-image: url("../sources/h1.jpg");
+}
+
+.imgH2
+{
+	background-image: url("../sources/h2.jpg");
+	float: right;
+}
+
+.imgH3
+{
+	background-image: url("../sources/h3.jpg");
+}
+
+.imgH4
+{
+	background-image: url("../sources/h4.jpg");
+	float: right;
+}
+
+.imgH5
+{
+	background-image: url("../sources/h5.jpg");
+}
+
+.imgH6
+{
+	background-image: url("../sources/h6.jpg");
+	float: right;
+}
+
+.imgH7
+{
+	background-image: url("../sources/h7.jpg");
+}
