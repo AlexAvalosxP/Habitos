@@ -8,28 +8,11 @@ function showTxt(opt)
 	info = document.getElementById('infoMid');
 	switch (opt)
 	{
-		case 1:
-			info.innerHTML = '<h2>Introducción</h2><h2>Los 7 hábitos de la gente altamente efectiva son los siguientes:</h2>' +
-			'<h3 class="der">El hábito de la proactividad nos da la libertad para poder escoger nuestra respuesta a los estímulos del medioambiente. Nos faculta para responder de acuerdo con nuestros principios y valores. En esencia, es lo que nos hace humanos y nos permite afirmar que somos los arquitectos de nuestro propio destino.</h3>' +
-			'<div class="imgH1"></div>' +
-			'<h3 class="izq">Comenzar con un fin en mente hace posible que nuestra vida tenga razón de ser, pues la creación de una visión de lo que queremos lograr permite que nuestras acciones estén dirigidas a lo que verdaderamente es significativo en nuestras vidas.</h3>' +
-			'<div class="imgH2"></div>' +
-			'<h3 class="der">Poner primero lo primero nos permite liberarnos de la tiranía de lo urgente para dedicar tiempo a las actividades que en verdad dan sentido a nuestras vidas. Es la disciplina de llevar a cabo lo importante, lo cual nos permite convertir en realidad la visión que forjamos en el hábito 2.</h3>' +
-			'<div class="imgH3"></div>' +
-			'<h3 class="izq">Pensar en Ganar-Ganar nos permite desarrollar una mentalidad de abundancia material y espiritual, pues nos cuestiona la premisa de que la vida es un “juego de suma cero” donde para que yo gane alguien tiene que perder.</h3>' +
-			'<div class="imgH4"></div>' +
-			'<h3 class="der">Buscar entender primero y ser entendido después es la esencia del respeto a los demás. La necesidad que tenemos de ser entendidos es uno de los sentimientos más intensos de todos los seres humanos. Este hábito es la clave de las relaciones humanas efectivas y posibilita llegar a acuerdos de tipo Ganar-Ganar.</h3>' +
-			'<div class="imgH5"></div>' +
-			'<h3 class="izq">Sinergizar es el resultado de cultivar la habilidad y la actitud de valorar la diversidad. La síntesis de ideas divergentes produce ideas mejores y superiores a las ideas individuales. El logro del trabajo en equipo y la innovación son el resultado de este hábito.</h3>' +
-			'<div class="imgH6"></div>' +
-			'<h3 class="der">Afilar la sierra es usar la capacidad que tenemos para renovarnos física, mental y espiritualmente. Es lo que nos permite establecer un equilibrio entre todas las dimensiones de nuestro ser, a fin de ser efectivos en los diferentes papeles (roles) que desempeñamos en nuestras vidas.</h3>' +
-			'<div class="imgH7"></div>' +
-			'';
-			break;
 		case 2:
 			info.innerHTML = '<h2>Aplicaciones y Ventajas</h2><p></p>';
 			break;
 		case 3:
+			/*info.innerHTML = '<iframe id="typeform-full" frameborder="0" src="https://jorge698.typeform.com/to/XJbyYR"></iframe> <script type="text/javascript" src="https://embed.typeform.com/embed.js"></script>';*/
 			info.innerHTML = '<h2>Test</h2>' + 
 			'<div class="question">' +
 			'<h3>[Insert question 1 here]</h3>' +
@@ -137,19 +120,41 @@ function showTxt(opt)
   			'<input type="radio" name="q21" value="0">No<br>' +
   		'</div>' +
   		'<button id="getResults" onclick="results()">Resultados</button>';
+			
 			break;
 		case 4:
-			info.innerHTML = '<h2>Acerca de</h2>' +
-				'<div class="profile"><img src=""><h1>Alejandro Ávalos</h1><h2>alexavalosxp@gmail.com</h2></div>' +
-				'<div class="profile"><img src=""><h1>Humberto Ávila</h1><h2>humberto.avila07@gmail.com</h2></div>' +
-				'<div class="profile"><img src=""><h1>Jorge Maya</h1><h2>jorgitomaya1@gmail.com</h2></div>' +
-				'<div class="uniInfo">' +
-				'<h2>Facultad de Informática</h2>' +
+			info.innerHTML = '<div class="content-lg container">'+
+            '<div class="row margin-b-40"><div class="col-sm-6">'+
+                    '<h2>Meet the Team</h2>'+
+                    '<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>'+
+            '</div></div>'+
+            '<div class="row">'+
+                '<div class="col-sm-4 sm-margin-b-50"><div class="bg-color-white margin-b-20"><div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">'+
+                    '<img class="img-responsive" src="sources/avatar.png" alt="Team Image">'+
+                '</div></div>'+
+                    '<h4><a href="#">Alicia Keys</a> <span class="text-uppercase margin-l-20">Project Manager</span></h4>'+
+                    '<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>'+
+                '</div>'+
+                '<div class="col-sm-4 sm-margin-b-50"><div class="bg-color-white margin-b-20"><div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">'+
+                    '<img class="img-responsive" src="sources/avatar.png" alt="Team Image">'+
+                '</div></div>'+
+                    '<h4><a href="#">Alicia Keys</a> <span class="text-uppercase margin-l-20">Project Manager</span></h4>'+
+                    '<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>'+
+                '</div>'+
+                '<div class="col-sm-4 sm-margin-b-50"><div class="bg-color-white margin-b-20"><div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">'+
+                    '<img class="img-responsive" src="sources/avatar.png" alt="Team Image">'+
+                '</div></div>'+
+                    '<h4><a href="#">Alicia Keys</a> <span class="text-uppercase margin-l-20">Project Manager</span></h4>'+
+                    '<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>'+
+                '</div>'+
+            '</div>'+
+        '</div>';
+		/*'<h2>Facultad de Informática</h2>' +
 				'<h1>UAQ</h1>' +
-				'</div>';
+				'</div>';*/
 			break;
 		default:
-			info.innerHTML = '<h2>ERROR</h2>';
+			info.innerHTML = '<div id="initialMsg">Seleciona una opción para desplegar la información</div>';
 			break;
 	}
 }
