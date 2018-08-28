@@ -243,3 +243,33 @@ h4{
 	height: 80px;
 	padding: 0; 
 }
+
+.col-12
+{
+	color: white !important;
+}
+
+.classynav>ul>li>a
+{
+	color: white !important;
+}
+
+.midAp
+{
+	padding-left: 35px;
+	width: calc(55% - 35px);
+	text-align: justify;
+	float: left;
+}
+
+.imgAp
+{
+	width: 36%;
+	height: 100%;
+	margin-left: 70px;
+	margin-top: 10px;
+	text-align: justify;
+	float: left;
+	background-image: url("../sources/av1.jpg");
+	background-size: cover;
+}

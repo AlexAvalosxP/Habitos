@@ -9,113 +9,120 @@ function showTxt(opt)
 	switch (opt)
 	{
 		case 2:
-			info.innerHTML = '<h2>Aplicaciones y Ventajas</h2><p></p>';
+			info.innerHTML = '<div class="midAp"><h2>Aplicaciones y Ventajas</h2><p>En términos generales, existen dos rutas para mejorarse a sí mismo y cambiar tu propia vida:<br />Una forma es abordar el habilidades necesarias para un cierto comportamiento deseado; es decir, estudiando habilidades de comunicación o técnicas de administración del tiempo.<br />' +
+      'Como alternativa, se puede tomar el camino más largo cavando un poco más profundo y trabajar en el carácter: los hábitos fundamentales y los sistemas de creencias que forman tu visión del mundo.<br />' +
+'El primer enfoque es efectivamente un intento de tomar un atajo hacia el éxito: hacerse rico sin trabajar por tu dinero, o lograr el crecimiento personal sin experimentar un desarrollo real.<br />' +
+'Sin embargo, el crecimiento personal real no se puede alcanzar a través de atajos. En el camino hacia la verdadera efectividad, no te puedes permitir saltarte un solo paso.<br />' +
+'Esto es cierto para logros tales como jugar al tenis o al piano, y tan cierto para el desarrollo emocional de una persona como para el desarrollo de su carácter.<br />' +
+'Si realmente deseas cambiar, debes trabajar desde adentro hacia afuera. Sólo una vez que te hayas cambiado drásticamente, puedes comenzar a cambiar el mundo que te rodea. Si, por ejemplo, te gustaría tener un matrimonio feliz, primero debes convertirte en una persona más positiva.<br />' +
+'Si quieres que te vean como una persona de fiar, no es bueno trabajar en tus habilidades de comunicación; en lugar de eso, debes trabajar para convertirte en una persona más de fiar.<br />' +
+'En lugar de arañar la superficie, tienes que abordar realmente tu carácter interno.</p></div><div class="imgAp"></div>';
 			break;
 		case 3:
 			/*info.innerHTML = '<iframe id="typeform-full" frameborder="0" src="https://jorge698.typeform.com/to/XJbyYR"></iframe> <script type="text/javascript" src="https://embed.typeform.com/embed.js"></script>';*/
 			info.innerHTML = '<h2>Test</h2>' + 
 			'<div class="question">' +
-			'<h3>[Insert question 1 here]</h3>' +
+			'<h3>¿Te gusta ser el primero en descubrir nuevas cosas?</h3>' +
   			'<input type="radio" name="q1" value="1" checked>Sí<br>' +
   			'<input type="radio" name="q1" value="0">No<br>' +
   		'</div>' +
   		'<div class="question">' +
-			'<h3>[Insert question 2 here]</h3>' +
+			'<h3>¿Procuras hacer actividades diarias en una hora fija?</h3>' +
   			'<input type="radio" name="q2" value="1" checked> Sí<br>' +
   			'<input type="radio" name="q2" value="0"> No<br>' +
   		'</div>' +
   		'<div class="question">' +
-			'<h3>[Insert question 3 here]</h3>' +
+			'<h3>¿Terminas tus tareas sin distracción?</h3>' +
   			'<input type="radio" name="q3" value="1" checked>Sí<br>' +
   			'<input type="radio" name="q3" value="0">No<br>' +
   		'</div>' +
   		'<div class="question">' +
-			'<h3>[Insert question 4 here]</h3>' +
+			'<h3>¿Crees que el esfuerzo debe ser recompensado?</h3>' +
   			'<input type="radio" name="q4" value="1" checked> Sí<br>' +
   			'<input type="radio" name="q4" value="0"> No<br>' +
   		'</div>' +
   		'<div class="question">' +
-			'<h3>[Insert question 5 here]</h3>' +
+			'<h3>¿Esperas a que otra persona termine de hablar para responder?</h3>' +
   			'<input type="radio" name="q5" value="1" checked>Sí<br>' +
   			'<input type="radio" name="q5" value="0">No<br>' +
   		'</div>' +
   		'<div class="question">' +
-			'<h3>[Insert question 6 here]</h3>' +
+			'<h3>¿Tratas de adaptarte a tu entorno de trabajo?</h3>' +
   			'<input type="radio" name="q6" value="1" checked> Sí<br>' +
   			'<input type="radio" name="q6" value="0"> No<br>' +
   		'</div>' +
   		'<div class="question">' +
-			'<h3>[Insert question 7 here]</h3>' +
+			'<h3>¿Sientes que tus actividades diarias te causan una satisfacción personal?</h3>' +
   			'<input type="radio" name="q7" value="1" checked>Sí<br>' +
   			'<input type="radio" name="q7" value="0">No<br>' +
   		'</div>' +
   		'<div class="question">' +
-			'<h3>[Insert question 8 here]</h3>' +
+			'<h3>Si notas que algo requiere solución, ¿tratas de solucionarlo aunque nadie te lo pida?</h3>' +
   			'<input type="radio" name="q8" value="1" checked> Sí<br>' +
   			'<input type="radio" name="q8" value="0"> No<br>' +
   		'</div>' +
   		'<div class="question">' +
-			'<h3>[Insert question 9 here]</h3>' +
+			'<h3>Te propones metas claras en tu vida</h3>' +
   			'<input type="radio" name="q9" value="1" checked>Sí<br>' +
   			'<input type="radio" name="q9" value="0">No<br>' +
   		'</div>' +
   		'<div class="question">' +
-			'<h3>[Insert question 10 here]</h3>' +
+			'<h3>¿Das prioridad a tareas urgentes/importantes?</h3>' +
   			'<input type="radio" name="q10" value="1" checked> Sí<br>' +
   			'<input type="radio" name="q10" value="0"> No<br>' +
   		'</div>' +
   		'<div class="question">' +
-			'<h3>[Insert question 11 here]</h3>' +
+			'<h3>¿Procuras ayudar a los demás?</h3>' +
   			'<input type="radio" name="q11" value="1" checked>Sí<br>' +
   			'<input type="radio" name="q11" value="0">No<br>' +
   		'</div>' +
   		'<div class="question">' +
-			'<h3>[Insert question 12 here]</h3>' +
+			'<h3>¿Tratas de analizar todos los puntos de vista de los demás?</h3>' +
   			'<input type="radio" name="q12" value="1" checked> Sí<br>' +
   			'<input type="radio" name="q12" value="0"> No<br>' +
   		'</div>' +
   		'<div class="question">' +
-			'<h3>[Insert question 13 here]</h3>' +
+			'<h3>Siempre buscas mejorar tus relaciones con los demás</h3>' +
   			'<input type="radio" name="q13" value="1" checked>Sí<br>' +
   			'<input type="radio" name="q13" value="0">No<br>' +
   		'</div>' +
   		'<div class="question">' +
-			'<h3>[Insert question 14 here]</h3>' +
+			'<h3>¿Procuras estar bien contigo mismo física y emocionalmente?</h3>' +
   			'<input type="radio" name="q14" value="1" checked> Sí<br>' +
   			'<input type="radio" name="q14" value="0"> No<br>' +
   		'</div>' +
   		'<div class="question">' +
-			'<h3>[Insert question 15 here]</h3>' +
+			'<h3>¿Haces las cosas a la primera? (Sin recordatorios)</h3>' +
   			'<input type="radio" name="q15" value="1" checked>Sí<br>' +
   			'<input type="radio" name="q15" value="0">No<br>' +
   		'</div>' +
   		'<div class="question">' +
-			'<h3>[Insert question 16 here]</h3>' +
+			'<h3>Para ti, es importante planificar todo previamente</h3>' +
   			'<input type="radio" name="q16" value="1" checked> Sí<br>' +
   			'<input type="radio" name="q16" value="0"> No<br>' +
   		'</div>' +
   		'<div class="question">' +
-			'<h3>[Insert question 17 here]</h3>' +
+			'<h3>¿Te consideras bueno para organizar tareas/actividades?</h3>' +
   			'<input type="radio" name="q17" value="1" checked>Sí<br>' +
   			'<input type="radio" name="q17" value="0">No<br>' +
   		'</div>' +
   		'<div class="question">' +
-			'<h3>[Insert question 18 here]</h3>' +
+			'<h3>¿Te causa mayor satisfacción que todos ganen a solo ganar tú?</h3>' +
   			'<input type="radio" name="q18" value="1" checked> Sí<br>' +
   			'<input type="radio" name="q18" value="0"> No<br>' +
   		'</div>' +
   		'<div class="question">' +
-			'<h3>[Insert question 19 here]</h3>' +
+			'<h3>¿Escuchas los comentarios de los demás en lugar de enojarte por lo que digan?</h3>' +
   			'<input type="radio" name="q19" value="1" checked>Sí<br>' +
   			'<input type="radio" name="q19" value="0">No<br>' +
   		'</div>' +
   		'<div class="question">' +
-			'<h3>[Insert question 20 here]</h3>' +
+			'<h3>Aportas ideas a los proyectos conjuntos aunque no siempre se haga lo que dices</h3>' +
   			'<input type="radio" name="q20" value="1" checked> Sí<br>' +
   			'<input type="radio" name="q20" value="0"> No<br>' +
   		'</div>' +
   		'<div class="question">' +
-			'<h3>[Insert question 21 here]</h3>' +
+			'<h3>Espiritualmente hablando, ¿consideras que te encuentras en una paz interior?</h3>' +
   			'<input type="radio" name="q21" value="1" checked>Sí<br>' +
   			'<input type="radio" name="q21" value="0">No<br>' +
   		'</div>' +
@@ -132,19 +139,19 @@ function showTxt(opt)
                 '<div class="col-sm-4 sm-margin-b-50"><div class="bg-color-white margin-b-20"><div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">'+
                     '<img class="img-responsive" src="sources/avatar.png" alt="Team Image">'+
                 '</div></div>'+
-                    '<h4><a href="#">Alicia Keys</a> <span class="text-uppercase margin-l-20">Project Manager</span></h4>'+
+                    '<h4><a href="#">Alejandro Avalos</a> <span class="text-uppercase margin-l-20">Project Manager</span></h4>'+
                     '<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>'+
                 '</div>'+
                 '<div class="col-sm-4 sm-margin-b-50"><div class="bg-color-white margin-b-20"><div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">'+
                     '<img class="img-responsive" src="sources/avatar.png" alt="Team Image">'+
                 '</div></div>'+
-                    '<h4><a href="#">Alicia Keys</a> <span class="text-uppercase margin-l-20">Project Manager</span></h4>'+
+                    '<h4><a href="#">Jorge Maya</a> <span class="text-uppercase margin-l-20">Project Manager</span></h4>'+
                     '<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>'+
                 '</div>'+
                 '<div class="col-sm-4 sm-margin-b-50"><div class="bg-color-white margin-b-20"><div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">'+
                     '<img class="img-responsive" src="sources/avatar.png" alt="Team Image">'+
                 '</div></div>'+
-                    '<h4><a href="#">Alicia Keys</a> <span class="text-uppercase margin-l-20">Project Manager</span></h4>'+
+                    '<h4><a href="#">Humberto Ávila</a> <span class="text-uppercase margin-l-20">Project Manager</span></h4>'+
                     '<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>'+
                 '</div>'+
             '</div>'+
