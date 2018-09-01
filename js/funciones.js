@@ -16,11 +16,11 @@ function showTxt(opt)
 'Esto es cierto para logros tales como jugar al tenis o al piano, y tan cierto para el desarrollo emocional de una persona como para el desarrollo de su carácter.<br />' +
 'Si realmente deseas cambiar, debes trabajar desde adentro hacia afuera. Sólo una vez que te hayas cambiado drásticamente, puedes comenzar a cambiar el mundo que te rodea. Si, por ejemplo, te gustaría tener un matrimonio feliz, primero debes convertirte en una persona más positiva.<br />' +
 'Si quieres que te vean como una persona de fiar, no es bueno trabajar en tus habilidades de comunicación; en lugar de eso, debes trabajar para convertirte en una persona más de fiar.<br />' +
-'En lugar de arañar la superficie, tienes que abordar realmente tu carácter interno.</p></div><div class="imgAp"></div>';
+'En lugar de arañar la superficie, tienes que abordar realmente tu carácter interno.</p></div><div class="imgAp"><img class="img-responsive" src="sources/av1.jpg"></div>';
 			break;
 		case 3:
 			/*info.innerHTML = '<iframe id="typeform-full" frameborder="0" src="https://jorge698.typeform.com/to/XJbyYR"></iframe> <script type="text/javascript" src="https://embed.typeform.com/embed.js"></script>';*/
-			info.innerHTML = '<h2>Test</h2>' + 
+			info.innerHTML = '<h2 id="titleTest">Test</h2>' + 
 			'<div class="question">' +
 			'<h3>¿Te gusta ser el primero en descubrir nuevas cosas?</h3>' +
   			'<input type="radio" name="q1" value="1" checked>Sí<br>' +
@@ -132,27 +132,27 @@ function showTxt(opt)
 		case 4:
 			info.innerHTML = '<div class="content-lg container">'+
             '<div class="row margin-b-40"><div class="col-sm-6">'+
-                    '<h2>Meet the Team</h2>'+
-                    '<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>'+
+                    '<h2>Universidad Autónoma de Querétaro</h2>'+
+                    '<p>Facultad de Informática</p>'+
             '</div></div>'+
             '<div class="row">'+
                 '<div class="col-sm-4 sm-margin-b-50"><div class="bg-color-white margin-b-20"><div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">'+
-                    '<img class="img-responsive" src="sources/avatar.png" alt="Team Image">'+
+                    '<img class="img-responsive prof" src="sources/p1.jpg" alt="Team Image">'+
                 '</div></div>'+
-                    '<h4><a href="#">Alejandro Avalos</a> <span class="text-uppercase margin-l-20">Project Manager</span></h4>'+
-                    '<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>'+
+                    '<h4><a href="#">Alejandro Avalos</a></h4>'+
+                    '<p>alexavalosxp@gmail.com</p>'+
                 '</div>'+
                 '<div class="col-sm-4 sm-margin-b-50"><div class="bg-color-white margin-b-20"><div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">'+
                     '<img class="img-responsive" src="sources/avatar.png" alt="Team Image">'+
                 '</div></div>'+
-                    '<h4><a href="#">Jorge Maya</a> <span class="text-uppercase margin-l-20">Project Manager</span></h4>'+
-                    '<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>'+
+                    '<h4><a href="#">Jorge Maya</a></h4>'+
+                    '<p>jorgemaya08@hotmail.com</p>'+
                 '</div>'+
                 '<div class="col-sm-4 sm-margin-b-50"><div class="bg-color-white margin-b-20"><div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">'+
-                    '<img class="img-responsive" src="sources/avatar.png" alt="Team Image">'+
+                    '<img class="img-responsive prof" src="sources/p3.jpg" alt="Team Image">'+
                 '</div></div>'+
-                    '<h4><a href="#">Humberto Ávila</a> <span class="text-uppercase margin-l-20">Project Manager</span></h4>'+
-                    '<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>'+
+                    '<h4><a href="#">Humberto Ávila</a></h4>'+
+                    '<p>humberto.avila07@gmail.com</p>'+
                 '</div>'+
             '</div>'+
         '</div>';

@@ -2279,3 +2279,41 @@ padding: 70px 10px 50px 350px;
 /*---------------------------------------------------
 ------- Media Queries for Split Layout Ends ---------
 ---------------------------------------------------*/
+.question
+{
+	margin-left: 30px;
+	margin-bottom: 	25px;
+}
+
+#titleTest
+{
+	font-size: 3.5em;
+	margin-left: 30px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.resText
+{
+	font-size: 1.4em;
+	line-height: 60px;
+	margin-left: 30px;
+}
+
+#getResults
+{
+	height: 55px;
+	width: 250px;
+	background: #183A4B;
+	margin-left: calc(50% - 125px);
+	color: white;
+	border-radius: 	20px;
+}
+
+#imgLogo
+{
+	top: 0px;
+	left: calc(50% - 300px);
+	width: 600px;
+	position: absolute;	
+}

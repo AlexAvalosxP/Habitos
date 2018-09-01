@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>7 hábitos de la gente altamente efectiva</title>
+<script src="js/funciones.js"></script>
 <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="iLand Multipurpose Landing Page Template">
@@ -25,7 +26,7 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-          <a class="navbar-brand page-scroll" href="#main"><img src="images/logo.png" width="80" height="30" alt="iLand" /></a> </div>
+          <a class="navbar-brand page-scroll" href="#main" hidden><img src="images/logo.png" width="80" height="30" alt="iLand" /></a> </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
@@ -48,6 +49,7 @@
         <div class="col-md-12">
           <div class="hero-content text-center">
             <h1 class="wow fadeInUp" data-wow-delay="0.1s" style="color: rgba(255,255,255,.8)">7 hábitos de la gente altamente efectiva</h1>
+            <img src="images/logo.png" id="imgLogo">
             <!--<p class="wow fadeInUp" data-wow-delay="0.2s"> Bring to the table win-win survival strategies to ensure proactive domination. </p>-->
             <!--<a href="#" class="btn btn-action wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Comenzar</a>--> </div>
         </div>
@@ -186,7 +188,7 @@
     </div>
     <!-- Split Feature1 Section -->
     <div class="split-features" id="test">
-      <div class="col-md-6 nopadding">
+      <!-- <div class="col-md-6 nopadding">
         <div class="split-image"> <img class="img-responsive wow fadeIn" src="images/app_image.png" alt="Image" /> </div>
       </div>
       <div class="col-md-6 nopadding">
@@ -201,7 +203,114 @@
             <li>Curabitur egestas justo neque viverra vel. </li>
           </ul>
         </div>
+      </div> -->
+      <h2 id="titleTest">Test</h2>
+      <div class="question">
+      <h3>¿Te gusta ser el primero en descubrir nuevas cosas?</h3>
+        <input type="radio" name="q1" value="1" checked>Sí<br>
+        <input type="radio" name="q1" value="0">No<br>
       </div>
+      <div class="question">
+      <h3>¿Procuras hacer actividades diarias en una hora fija?</h3>
+        <input type="radio" name="q2" value="1" checked> Sí<br>
+        <input type="radio" name="q2" value="0"> No<br>
+      </div>
+      <div class="question">
+      <h3>¿Terminas tus tareas sin distracción?</h3>
+        <input type="radio" name="q3" value="1" checked>Sí<br>
+        <input type="radio" name="q3" value="0">No<br>
+      </div>
+      <div class="question">
+      <h3>¿Crees que el esfuerzo debe ser recompensado?</h3>
+        <input type="radio" name="q4" value="1" checked> Sí<br>
+        <input type="radio" name="q4" value="0"> No<br>
+      </div>
+      <div class="question">
+      <h3>¿Esperas a que otra persona termine de hablar para responder?</h3>
+        <input type="radio" name="q5" value="1" checked>Sí<br>
+        <input type="radio" name="q5" value="0">No<br>
+      </div>
+      <div class="question">
+      <h3>¿Tratas de adaptarte a tu entorno de trabajo?</h3>
+        <input type="radio" name="q6" value="1" checked> Sí<br>
+        <input type="radio" name="q6" value="0"> No<br>
+      </div>
+      <div class="question">
+      <h3>¿Sientes que tus actividades diarias te causan una satisfacción personal?</h3>
+        <input type="radio" name="q7" value="1" checked>Sí<br>
+        <input type="radio" name="q7" value="0">No<br>
+      </div>
+      <div class="question">
+      <h3>Si notas que algo requiere solución, ¿tratas de solucionarlo aunque nadie te lo pida?</h3>
+        <input type="radio" name="q8" value="1" checked> Sí<br>
+        <input type="radio" name="q8" value="0"> No<br>
+      </div>
+      <div class="question">
+      <h3>Te propones metas claras en tu vida</h3>
+        <input type="radio" name="q9" value="1" checked>Sí<br>
+        <input type="radio" name="q9" value="0">No<br>
+      </div>
+      <div class="question">
+      <h3>¿Das prioridad a tareas urgentes/importantes?</h3>
+        <input type="radio" name="q10" value="1" checked> Sí<br>
+        <input type="radio" name="q10" value="0"> No<br>
+      </div>
+      <div class="question">
+      <h3>¿Procuras ayudar a los demás?</h3>
+        <input type="radio" name="q11" value="1" checked>Sí<br>
+        <input type="radio" name="q11" value="0">No<br>
+      </div>
+      <div class="question">
+      <h3>¿Tratas de analizar todos los puntos de vista de los demás?</h3>
+        <input type="radio" name="q12" value="1" checked> Sí<br>
+        <input type="radio" name="q12" value="0"> No<br>
+      </div>
+      <div class="question">
+      <h3>Siempre buscas mejorar tus relaciones con los demás</h3>
+        <input type="radio" name="q13" value="1" checked>Sí<br>
+        <input type="radio" name="q13" value="0">No<br>
+      </div>
+      <div class="question">
+      <h3>¿Procuras estar bien contigo mismo física y emocionalmente?</h3>
+        <input type="radio" name="q14" value="1" checked> Sí<br>
+        <input type="radio" name="q14" value="0"> No<br>
+      </div>
+      <div class="question">
+      <h3>¿Haces las cosas a la primera? (Sin recordatorios)</h3>
+        <input type="radio" name="q15" value="1" checked>Sí<br>
+        <input type="radio" name="q15" value="0">No<br>
+      </div>
+      <div class="question">
+      <h3>Para ti, es importante planificar todo previamente</h3>
+        <input type="radio" name="q16" value="1" checked> Sí<br>
+        <input type="radio" name="q16" value="0"> No<br>
+      </div>
+      <div class="question">
+      <h3>¿Te consideras bueno para organizar tareas/actividades?</h3>
+        <input type="radio" name="q17" value="1" checked>Sí<br>
+        <input type="radio" name="q17" value="0">No<br>
+      </div>
+      <div class="question">
+      <h3>¿Te causa mayor satisfacción que todos ganen a solo ganar tú?</h3>
+        <input type="radio" name="q18" value="1" checked> Sí<br>
+        <input type="radio" name="q18" value="0"> No<br>
+      </div>
+      <div class="question">
+      <h3>¿Escuchas los comentarios de los demás en lugar de enojarte por lo que digan?</h3>
+        <input type="radio" name="q19" value="1" checked>Sí<br>
+        <input type="radio" name="q19" value="0">No<br>
+      </div>
+      <div class="question">
+      <h3>Aportas ideas a los proyectos conjuntos aunque no siempre se haga lo que dices</h3>
+        <input type="radio" name="q20" value="1" checked> Sí<br>
+        <input type="radio" name="q20" value="0"> No<br>
+      </div>
+      <div class="question">
+      <h3>Espiritualmente hablando, ¿consideras que te encuentras en una paz interior?</h3>
+        <input type="radio" name="q21" value="1" checked>Sí<br>
+        <input type="radio" name="q21" value="0">No<br>
+      </div>
+      <button id="getResults" onclick="results()">Resultados</button>
     </div>
      <!-- Split Feature2 Section --
     <div class="split-features2">
