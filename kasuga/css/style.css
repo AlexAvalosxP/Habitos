@@ -2304,7 +2304,7 @@ padding: 70px 10px 50px 350px;
 {
 	height: 55px;
 	width: 250px;
-	background: #183A4B;
+	background: #237C6A;
 	margin-left: calc(50% - 125px);
 	color: white;
 	border-radius: 	20px;
@@ -2316,4 +2316,18 @@ padding: 70px 10px 50px 350px;
 	left: calc(50% - 300px);
 	width: 600px;
 	position: absolute;	
+}
+
+#titCuest
+{
+	color:	#237C6A;
+	padding-top: 35px;
+}
+
+#restCuest
+{
+	margin-bottom: 400px;
+	text-align: center;
+	line-height: 50vh;
+	font-size: 2.5em;
 }
